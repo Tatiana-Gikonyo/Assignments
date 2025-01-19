@@ -1,6 +1,6 @@
 /* General body styles */
 body{
-    background-color: aqua;
+    background-color: beige;
     color: black;
     margin: 0;
     padding: 0;
@@ -8,9 +8,9 @@ body{
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: aquamarine;
     color: white;
-    padding: 20px;
+    padding: 0;
     text-align: center;
 }
 nav ul {
@@ -21,5 +21,47 @@ nav ul {
     padding: 0;
     gap: 20px;
     list-style-type: none;
+
+}
+
+.container{
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.col-4 {
+    flex: 1 1 30%;
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+}
+
+.card {
+    background-color: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+h1{
+    font-style:italic;
 
 }
